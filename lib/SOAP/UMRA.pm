@@ -121,7 +121,8 @@ __END__
 SOAP::UMRA - Access an UMRA SOAP service from perl
 
 =head1 SYNOPSIS
-use SOAP::UMRA;
+
+  use SOAP::UMRA;
 
   my $umra = SOAP::UMRA->new('http://umra-host/umrawebservices/service.asmx');
   my $create = $umra->project('Create Account');
